@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url(5c2749b46bf44ce731f6a7a72bf7ef40.jpg);
+    width: 100%;
+    height: 400vh;  
+    background-size: cover;  
+    z-index: 0;
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    /* GLASS EFFECT */
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(4px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.35),
+        inset 0 1px 1px rgba(255, 255, 255, 0.25);
+
+    z-index: 10;
+}
+
+.navlogo{
+    background-image: url(logo.gif.gif);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 5px 5px 5px 5px;
+}
+.navaddress{
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    gap: 0;
+    align-items: center;
+}
+#navlocationlogo{
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 0;
+    color: #CFE8EF;
+}
+.navadd{
+    margin: 0;
+    padding: 0;
+}
+.navdeliverTo{
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #D0D6B3;
+
+}
+#navadd{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #F7F7F7;
+}
+
+.navsearchbar{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    gap: 0;
+}
+.navselect{
+    height: 38px;
+    width: 105px;
+    background-color: #8EA8C3;
+    border-radius: 5px 0px 0px 5px;
+}
+.navselect:hover{
+    background-color: #9BC4BC;
+}
+#navsearchinput{
+    height: 38px;
+    width: 500px;
+}
+.navsearchlogo{
+    background-color: #8FAFC6;
+    height: 37px;
+    width: 38px;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navsearchlogo:hover{
+    background-color: #9BC4BC;
+}
+#navsearchfont{
+    margin: 25% 25% 25% 15%;
+    font-size: 1rem;
+}
+.navid{
+    display:flex;
+}
+.navidlogo{
+    height: 50px;
+    width: 50px;
+    margin: 5px 5px 5px 5px;
+    background-image: url(idlogo.gif);
+    background-size: cover;
+}.navidlogo:hover{
+    background-image: url(id.gif);
+    background-size: cover;
+}
+/* .navidtext{
+    font-size: 1.5rem;
+    margin: 15px 5px 15px 0px;
+    padding: 0px;
+} */
+.navcart{
+    display:flex;
+}
+#navcartlogo{
+    font-size: 1.8rem;
+    margin: 10px 10px 10px 5px;
+    color: #CFE8EF; 
+}
+.navcartnumber{
+    font-size: 2rem;
+    color: #CFE8EF;
+}
+#navcartlogo:hover{
+    color: #C0F8D1;
+}
