@@ -5,7 +5,7 @@
 
 .background{
     background-image: url(5c2749b46bf44ce731f6a7a72bf7ef40.jpg);
-    width: 100%;
+    width: 100vw;
     height: 400vh;  
     background-size: cover;  
     z-index: 0;
