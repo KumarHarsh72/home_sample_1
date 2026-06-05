@@ -19,7 +19,7 @@
                 <i class="fa-solid fa-location-dot" id="navlocationlogo"></i>
                 <div class="navadd">
                     <p class="navdeliverTo">Deliver to</p>
-                    <div id="navadd">Kumar,H3-45</div>
+                    <div id="navadd">H3R45</div>
                 </div>
             </div>
 
@@ -52,12 +52,43 @@
                 <div class="navcartlogo">
                     <i class="fa-solid fa-cart-shopping" id="navcartlogo"></i>
                 </div>
-                
+
             </div>
 
 
         </div>
+        <div class="heropage">
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img id="slide-1" src="slide1.jpg" alt="slide-1">
+                    <img id="slide-2" src="slide2.jpg" alt="slide-2">
+                    <img id="slide-3" src="slide3.jpg" alt="slide-3">
+                    <img id="slide-4" src="slide4.jpg" alt="slide-4">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                </div>
+            </div>
+        </div>
     </div>
+
+<script>
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slider img');
+
+    let index = 0;
+
+    setInterval(() => {
+        index = (index + 1) % slides.length;
+        slider.scrollTo({
+            left: slider.clientWidth * index,
+            behavior: 'smooth'
+        });
+    }, 5000); // 5 seconds
+</script>
 
 </body>
 
